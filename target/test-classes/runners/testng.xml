@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite" thread-count="10">
+	<test name="Bright Gauge API's">
+		<classes>
+			<class
+				name="org.continuum.testcases.ValidateGetPolicyDetailsAPI" />
+			<class
+				name="org.continuum.testcases.ValidateGetAssignedPoliciesAPI" />
+			<class
+				name="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" />
+ 			<class
+				name="org.continuum.testcases.ValidateGetListSiteAPI" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

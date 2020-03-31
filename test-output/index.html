@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_Automation_Suite">
+              <span class="suite-name border-passed">API Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_Automation_Suite">
+                    <span>C:\Users\amar.talla\Desktop\Amar Talla\Workspace\Project Workspace\rmm-delta-framework\src\test\resources\runners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Automation_Suite" class="hide-methods passed suite-API_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Automation_Suite -->
+                      <a href="#" panel-name="suite-API_Automation_Suite" class="show-methods passed suite-API_Automation_Suite"> (show)</a> <!-- show-methods passed suite-API_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetAssignedPoliciesAPI" hash-for-method="validateGetAssignedPoliciesAPIWithDefaultDetails({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Defa...)">validateGetAssignedPoliciesAPIWithDefaultDetails({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Defa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetAssignedPoliciesAPI" hash-for-method="validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=...)">validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetAssignedPoliciesAPI" hash-for-method="validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50...)">validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=5000...)">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=5000...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=5000...)">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=5000...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=5000...)">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=5000...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100})">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=20...)">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=20...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode...)">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=20...)">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=20...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=20...)">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=20...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, part...)">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, part...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" hash-for-method="validateGetPartnerMetaDataAPIWithInvalidOperation({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323})">validateGetPartnerMetaDataAPIWithInvalidOperation({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" hash-for-method="validateGetPartnerMetaDataAPIWithInvalidPartnerID({operation=partnermetadata, expectedStatusCode=404, partnerID=100})">validateGetPartnerMetaDataAPIWithInvalidPartnerID({operation=partnermetadata, expectedStatusCode=404, partnerID=100})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" hash-for-method="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, part...)">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, part...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" hash-for-method="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName...)">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPartnerMetaDataAPI" hash-for-method="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT...)">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPolicyDetailsAPI" hash-for-method="validateGetPolicyDetailsAPIWithInvalidDetails({policyID=493, expectedStatusCode=200, partnerID=50001740})">validateGetPolicyDetailsAPIWithInvalidDetails({policyID=493, expectedStatusCode=200, partnerID=50001740})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPolicyDetailsAPI" hash-for-method="validateGetPolicyDetailsAPIWithInvalidDetails({policyID=494, expectedStatusCode=200, partnerID=50001749})">validateGetPolicyDetailsAPIWithInvalidDetails({policyID=494, expectedStatusCode=200, partnerID=50001749})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetPolicyDetailsAPI" hash-for-method="validateGetPolicyDetailsAPIWithValidDetails({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyN...)">validateGetPolicyDetailsAPIWithValidDetails({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_Suite" title="org.continuum.testcases.ValidateGetListSiteAPI" hash-for-method="validateListSiteAPIWithInvalidOperation({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=500...)">validateListSiteAPIWithInvalidOperation({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=500...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Automation_Suite" class="panel API_Automation_Suite">
+          <div class="suite-API_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.continuum.testcases.ValidateGetPartnerMetaDataAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPartnerMetaDataAPIWithInvalidOperation({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323})">
+                  </a> <!-- validateGetPartnerMetaDataAPIWithInvalidOperation({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323}) -->
+                  <span class="method-name">validateGetPartnerMetaDataAPIWithInvalidOperation</span>
+                  <span class="parameters">({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPartnerMetaDataAPIWithInvalidPartnerID({operation=partnermetadata, expectedStatusCode=404, partnerID=100})">
+                  </a> <!-- validateGetPartnerMetaDataAPIWithInvalidPartnerID({operation=partnermetadata, expectedStatusCode=404, partnerID=100}) -->
+                  <span class="method-name">validateGetPartnerMetaDataAPIWithInvalidPartnerID</span>
+                  <span class="parameters">({operation=partnermetadata, expectedStatusCode=404, partnerID=100})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, part...)">
+                  </a> <!-- validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, part...) -->
+                  <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails</span>
+                  <span class="parameters">({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, partnerID=50016324, companyCode=AVP})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName...)">
+                  </a> <!-- validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName...) -->
+                  <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails</span>
+                  <span class="parameters">({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName=testMemberHelpDeskChamp, expectedStatusCode=200, partnerID=50016323, companyCode=testMemberHelpDeskChamp})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT...)">
+                  </a> <!-- validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT...) -->
+                  <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails</span>
+                  <span class="parameters">({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT, expectedStatusCode=200, partnerID=50016282, companyCode=RRTContinuum-ConnectWise})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Suite-class-passed -->
+          <div class="suite-API_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.continuum.testcases.ValidateGetPolicyDetailsAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPolicyDetailsAPIWithInvalidDetails({policyID=493, expectedStatusCode=200, partnerID=50001740})">
+                  </a> <!-- validateGetPolicyDetailsAPIWithInvalidDetails({policyID=493, expectedStatusCode=200, partnerID=50001740}) -->
+                  <span class="method-name">validateGetPolicyDetailsAPIWithInvalidDetails</span>
+                  <span class="parameters">({policyID=493, expectedStatusCode=200, partnerID=50001740})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPolicyDetailsAPIWithInvalidDetails({policyID=494, expectedStatusCode=200, partnerID=50001749})">
+                  </a> <!-- validateGetPolicyDetailsAPIWithInvalidDetails({policyID=494, expectedStatusCode=200, partnerID=50001749}) -->
+                  <span class="method-name">validateGetPolicyDetailsAPIWithInvalidDetails</span>
+                  <span class="parameters">({policyID=494, expectedStatusCode=200, partnerID=50001749})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetPolicyDetailsAPIWithValidDetails({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyN...)">
+                  </a> <!-- validateGetPolicyDetailsAPIWithValidDetails({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyN...) -->
+                  <span class="method-name">validateGetPolicyDetailsAPIWithValidDetails</span>
+                  <span class="parameters">({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyName=GRT Server Policy})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Suite-class-passed -->
+          <div class="suite-API_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.continuum.testcases.ValidateGetListSiteAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=5000...)">
+                  </a> <!-- validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=5000...) -->
+                  <span class="method-name">validateGetListSiteAPIWithInvalidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=50000004})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=5000...)">
+                  </a> <!-- validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=5000...) -->
+                  <span class="method-name">validateGetListSiteAPIWithInvalidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=50000001})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=5000...)">
+                  </a> <!-- validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=5000...) -->
+                  <span class="method-name">validateGetListSiteAPIWithInvalidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=50000004})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100})">
+                  </a> <!-- validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100}) -->
+                  <span class="method-name">validateGetListSiteAPIWithInvalidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=20...)">
+                  </a> <!-- validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=20...) -->
+                  <span class="method-name">validateGetListSiteAPIWithValidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=200, partnerID=50000004})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode...)">
+                  </a> <!-- validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode...) -->
+                  <span class="method-name">validateGetListSiteAPIWithValidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode=200, partnerID=50000004})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=20...)">
+                  </a> <!-- validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=20...) -->
+                  <span class="method-name">validateGetListSiteAPIWithValidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=200, partnerID=50000001})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=20...)">
+                  </a> <!-- validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=20...) -->
+                  <span class="method-name">validateGetListSiteAPIWithValidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=200, partnerID=50000001})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, part...)">
+                  </a> <!-- validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, part...) -->
+                  <span class="method-name">validateGetListSiteAPIWithValidDetails</span>
+                  <span class="parameters">({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, partnerID=50016282})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateListSiteAPIWithInvalidOperation({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=500...)">
+                  </a> <!-- validateListSiteAPIWithInvalidOperation({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=500...) -->
+                  <span class="method-name">validateListSiteAPIWithInvalidOperation</span>
+                  <span class="parameters">({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=50000004})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Suite-class-passed -->
+          <div class="suite-API_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.continuum.testcases.ValidateGetAssignedPoliciesAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetAssignedPoliciesAPIWithDefaultDetails({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Defa...)">
+                  </a> <!-- validateGetAssignedPoliciesAPIWithDefaultDetails({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Defa...) -->
+                  <span class="method-name">validateGetAssignedPoliciesAPIWithDefaultDetails</span>
+                  <span class="parameters">({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Default Server Policy})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=...)">
+                  </a> <!-- validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=...) -->
+                  <span class="method-name">validateGetAssignedPoliciesAPIWithValidDetails</span>
+                  <span class="parameters">({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=Default Desktop Policy,Default Server Policy,Copy of Desktop Policy,Copy of Default Server Policy,Copy of Default Server Policyi,Copy of Copy of Desktop Policy ASK})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50...)">
+                  </a> <!-- validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50...) -->
+                  <span class="method-name">validateGetAssignedPoliciesAPIWithValidDetails</span>
+                  <span class="parameters">({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50001749, policyNames=Default Desktop Policy,Default Server Policy,MAC_weekly,MSAPPS Desktop Policy.....Karam,Syeed Desktop Policy TPT,PmScripts Desktop Policy,PmScripts Desktop Policy_Minor,TPM_Test1,GRT Desktop Policy,GRT Server Policy})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Suite-class-passed -->
+        </div> <!-- panel API_Automation_Suite -->
+        <div panel-name="test-xml-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\amar.talla\Desktop\Amar Talla\Workspace\Project Workspace\rmm-delta-framework\src\test\resources\runners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;API Automation Suite&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;Bright Gauge API&amp;#039;s&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.continuum.testcases.ValidateGetPolicyDetailsAPI&quot;/&gt;
+      &lt;class name=&quot;org.continuum.testcases.ValidateGetAssignedPoliciesAPI&quot;/&gt;
+      &lt;class name=&quot;org.continuum.testcases.ValidateGetPartnerMetaDataAPI&quot;/&gt;
+      &lt;class name=&quot;org.continuum.testcases.ValidateGetListSiteAPI&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bright Gauge API&apos;s --&gt;
+&lt;/suite&gt; &lt;!-- API Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Bright Gauge API's (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Automation_Suite');
+function tableData_API_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateGetPolicyDetailsAPIWithInvalidDetails')
+data.setCell(0, 2, 'org.continuum.testcases.ValidateGetPolicyDetailsAPI')
+data.setCell(0, 3, 1942);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateGetListSiteAPIWithValidDetails')
+data.setCell(1, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(1, 3, 405);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateGetListSiteAPIWithValidDetails')
+data.setCell(2, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(2, 3, 210);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateGetListSiteAPIWithValidDetails')
+data.setCell(3, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(3, 3, 207);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateGetAssignedPoliciesAPIWithDefaultDetails')
+data.setCell(4, 2, 'org.continuum.testcases.ValidateGetAssignedPoliciesAPI')
+data.setCell(4, 3, 199);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateGetAssignedPoliciesAPIWithValidDetails')
+data.setCell(5, 2, 'org.continuum.testcases.ValidateGetAssignedPoliciesAPI')
+data.setCell(5, 3, 165);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateGetListSiteAPIWithInvalidDetails')
+data.setCell(6, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(6, 3, 164);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateGetListSiteAPIWithValidDetails')
+data.setCell(7, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(7, 3, 153);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateGetListSiteAPIWithInvalidDetails')
+data.setCell(8, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(8, 3, 153);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateGetPolicyDetailsAPIWithValidDetails')
+data.setCell(9, 2, 'org.continuum.testcases.ValidateGetPolicyDetailsAPI')
+data.setCell(9, 3, 152);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateGetListSiteAPIWithInvalidDetails')
+data.setCell(10, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(10, 3, 131);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateGetPartnerMetaDataAPIWithValidDetails')
+data.setCell(11, 2, 'org.continuum.testcases.ValidateGetPartnerMetaDataAPI')
+data.setCell(11, 3, 119);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateGetListSiteAPIWithValidDetails')
+data.setCell(12, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(12, 3, 116);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateGetListSiteAPIWithInvalidDetails')
+data.setCell(13, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(13, 3, 115);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateGetPolicyDetailsAPIWithInvalidDetails')
+data.setCell(14, 2, 'org.continuum.testcases.ValidateGetPolicyDetailsAPI')
+data.setCell(14, 3, 105);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateGetPartnerMetaDataAPIWithValidDetails')
+data.setCell(15, 2, 'org.continuum.testcases.ValidateGetPartnerMetaDataAPI')
+data.setCell(15, 3, 94);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateGetPartnerMetaDataAPIWithValidDetails')
+data.setCell(16, 2, 'org.continuum.testcases.ValidateGetPartnerMetaDataAPI')
+data.setCell(16, 3, 92);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateListSiteAPIWithInvalidOperation')
+data.setCell(17, 2, 'org.continuum.testcases.ValidateGetListSiteAPI')
+data.setCell(17, 3, 70);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateGetAssignedPoliciesAPIWithValidDetails')
+data.setCell(18, 2, 'org.continuum.testcases.ValidateGetAssignedPoliciesAPI')
+data.setCell(18, 3, 68);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateGetPartnerMetaDataAPIWithInvalidOperation')
+data.setCell(19, 2, 'org.continuum.testcases.ValidateGetPartnerMetaDataAPI')
+data.setCell(19, 3, 59);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateGetPartnerMetaDataAPIWithInvalidPartnerID')
+data.setCell(20, 2, 'org.continuum.testcases.ValidateGetPartnerMetaDataAPI')
+data.setCell(20, 3, 58);
+window.suiteTableData['API_Automation_Suite']= { tableData: data, tableDiv: 'times-div-API_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-API_Automation_Suite">
+              </div> <!-- times-div-API_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.continuum.testcases.ValidateGetPartnerMetaDataAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpFramework</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.continuum.testcases.ValidateGetListSiteAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpFramework</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.continuum.testcases.ValidateGetAssignedPoliciesAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpFramework</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.continuum.testcases.ValidateGetPolicyDetailsAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpFramework</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateGetPolicyDetailsAPIWithInvalidDetails({policyID=493, expectedStatusCode=200, partnerID=50001740})</span>
+                <span class="method-start">420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPolicyDetailsAPIWithInvalidDetails({policyID=494, expectedStatusCode=200, partnerID=50001749})</span>
+                <span class="method-start">2365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPolicyDetailsAPIWithValidDetails({policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyN...)</span>
+                <span class="method-start">2472 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.continuum.testcases.ValidateGetAssignedPoliciesAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">2627 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateGetAssignedPoliciesAPIWithDefaultDetails({policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Defa...)</span>
+                <span class="method-start">2630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50...)</span>
+                <span class="method-start">2832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetAssignedPoliciesAPIWithValidDetails({policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=...)</span>
+                <span class="method-start">2998 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.continuum.testcases.ValidateGetPartnerMetaDataAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3067 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateGetPartnerMetaDataAPIWithInvalidOperation({operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323})</span>
+                <span class="method-start">3070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPartnerMetaDataAPIWithInvalidPartnerID({operation=partnermetadata, expectedStatusCode=404, partnerID=100})</span>
+                <span class="method-start">3131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName...)</span>
+                <span class="method-start">3192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, part...)</span>
+                <span class="method-start">3288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetPartnerMetaDataAPIWithValidDetails({operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT...)</span>
+                <span class="method-start">3381 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.continuum.testcases.ValidateGetListSiteAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=5000...)</span>
+                <span class="method-start">3506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100})</span>
+                <span class="method-start">3660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=5000...)</span>
+                <span class="method-start">3776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithInvalidDetails({operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=5000...)</span>
+                <span class="method-start">3908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=20...)</span>
+                <span class="method-start">4081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode...)</span>
+                <span class="method-start">4289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=20...)</span>
+                <span class="method-start">4695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=20...)</span>
+                <span class="method-start">4850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateGetListSiteAPIWithValidDetails({operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, part...)</span>
+                <span class="method-start">5060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateListSiteAPIWithInvalidOperation({operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=500...)</span>
+                <span class="method-start">5180 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.continuum.testcases.ValidateGetPolicyDetailsAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">5266 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

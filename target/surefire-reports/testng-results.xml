@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="27" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Automation Suite" duration-ms="5831" started-at="2020-03-31T14:28:55 IST" finished-at="2020-03-31T14:29:00 IST">
+    <groups>
+    </groups>
+    <test name="Bright Gauge API&#039;s" duration-ms="5831" started-at="2020-03-31T14:28:55 IST" finished-at="2020-03-31T14:29:00 IST">
+      <class name="org.continuum.testcases.ValidateGetPolicyDetailsAPI">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="setUpFramework" is-config="true" duration-ms="398" started-at="2020-03-31T14:28:54 IST" finished-at="2020-03-31T14:28:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-03-31T14:28:55 IST" finished-at="2020-03-31T14:28:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="validateGetPolicyDetailsAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="validateGetPolicyDetailsAPIWithInvalidDetails" duration-ms="1381" started-at="2020-03-31T14:28:55 IST" data-provider="data" finished-at="2020-03-31T14:28:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyID=493, expectedStatusCode=200, partnerID=50001740}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPolicyDetailsAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetPolicyDetailsAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="validateGetPolicyDetailsAPIWithInvalidDetails" duration-ms="72" started-at="2020-03-31T14:28:56 IST" data-provider="data" finished-at="2020-03-31T14:28:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyID=494, expectedStatusCode=200, partnerID=50001749}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPolicyDetailsAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetPolicyDetailsAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="validateGetPolicyDetailsAPIWithValidDetails" duration-ms="1843" started-at="2020-03-31T14:28:56 IST" data-provider="data" finished-at="2020-03-31T14:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyType=MSMA, policyID=493, siteID=50110167, expectedStatusCode=200, partnerID=50001749, policyName=GRT Server Policy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPolicyDetailsAPIWithValidDetails -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.continuum.testcases.ValidateGetPolicyDetailsAPI@76508ed1]" name="afterSuite" is-config="true" duration-ms="285" started-at="2020-03-31T14:29:00 IST" finished-at="2020-03-31T14:29:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.continuum.testcases.ValidateGetPolicyDetailsAPI -->
+      <class name="org.continuum.testcases.ValidateGetPartnerMetaDataAPI">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-03-31T14:28:58 IST" finished-at="2020-03-31T14:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="validateGetPartnerMetaDataAPIWithInvalidOperation(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="validateGetPartnerMetaDataAPIWithInvalidOperation" duration-ms="85" started-at="2020-03-31T14:28:58 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=partnermetadatas, expectedStatusCode=400, partnerID=50016323}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPartnerMetaDataAPIWithInvalidOperation -->
+        <test-method status="PASS" signature="validateGetPartnerMetaDataAPIWithInvalidPartnerID(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="validateGetPartnerMetaDataAPIWithInvalidPartnerID" duration-ms="86" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=partnermetadata, expectedStatusCode=404, partnerID=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPartnerMetaDataAPIWithInvalidPartnerID -->
+        <test-method status="PASS" signature="validateGetPartnerMetaDataAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="validateGetPartnerMetaDataAPIWithValidDetails" duration-ms="80" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=partnermetadata, emailID=testMemberHelpDeskChamp@testMemberHelpDeskChamp.com, companyName=testMemberHelpDeskChamp, expectedStatusCode=200, partnerID=50016323, companyCode=testMemberHelpDeskChamp}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPartnerMetaDataAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetPartnerMetaDataAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="validateGetPartnerMetaDataAPIWithValidDetails" duration-ms="70" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=partnermetadata, emailID=avp@continuum.net, companyName=AVP, expectedStatusCode=200, partnerID=50016324, companyCode=AVP}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPartnerMetaDataAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetPartnerMetaDataAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetPartnerMetaDataAPI@15c43bd9]" name="validateGetPartnerMetaDataAPIWithValidDetails" duration-ms="65" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=partnermetadata, emailID=rrtdt.primary@gmail.com, companyName=RRTContinuum-ConnectWise-DT, expectedStatusCode=200, partnerID=50016282, companyCode=RRTContinuum-ConnectWise}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetPartnerMetaDataAPIWithValidDetails -->
+      </class> <!-- org.continuum.testcases.ValidateGetPartnerMetaDataAPI -->
+      <class name="org.continuum.testcases.ValidateGetListSiteAPI">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-03-31T14:28:59 IST" finished-at="2020-03-31T14:28:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithInvalidDetails" duration-ms="125" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=amar.talla@continuum.net, expectedStatusCode=404, partnerID=50000004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithInvalidDetails" duration-ms="80" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=100}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithInvalidDetails" duration-ms="88" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=zaiddtuser@continuum.net, expectedStatusCode=404, partnerID=50000004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithInvalidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithInvalidDetails" duration-ms="122" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:28:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=super.user@continuum.net, expectedStatusCode=404, partnerID=50000001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithInvalidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithValidDetails" duration-ms="335" started-at="2020-03-31T14:28:59 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=super.user@continuum.net, siteID=50000006, expectedStatusCode=200, partnerID=50000004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithValidDetails" duration-ms="340" started-at="2020-03-31T14:29:00 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=dev.siteadmin@continuum.net, siteID=50000008, expectedStatusCode=200, partnerID=50000004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithValidDetails" duration-ms="148" started-at="2020-03-31T14:29:00 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=zaiddtuser@continuum.net, siteID=50001204, expectedStatusCode=200, partnerID=50000001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithValidDetails" duration-ms="192" started-at="2020-03-31T14:29:00 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=biskyadmin@continuum.net, siteID=50016529, expectedStatusCode=200, partnerID=50000001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetListSiteAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateGetListSiteAPIWithValidDetails" duration-ms="68" started-at="2020-03-31T14:29:00 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorization, email=rrtdt.primary@gmail.com, siteID=-1, expectedStatusCode=200, partnerID=50016282}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetListSiteAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateListSiteAPIWithInvalidOperation(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetListSiteAPI@3d74bf60]" name="validateListSiteAPIWithInvalidOperation" duration-ms="36" started-at="2020-03-31T14:29:00 IST" data-provider="data" finished-at="2020-03-31T14:29:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{operation=userauthorizations, email=super.user@continuum.net, expectedStatusCode=400, partnerID=50000004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListSiteAPIWithInvalidOperation -->
+      </class> <!-- org.continuum.testcases.ValidateGetListSiteAPI -->
+      <class name="org.continuum.testcases.ValidateGetAssignedPoliciesAPI">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.continuum.testcases.ValidateGetAssignedPoliciesAPI@41e36e46]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-03-31T14:28:58 IST" finished-at="2020-03-31T14:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="validateGetAssignedPoliciesAPIWithDefaultDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetAssignedPoliciesAPI@41e36e46]" name="validateGetAssignedPoliciesAPIWithDefaultDetails" duration-ms="265" started-at="2020-03-31T14:28:58 IST" data-provider="data" finished-at="2020-03-31T14:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyTypes=DPMA,MSMA, expectedStatusCode=200, partnerID=1, policyNames=Default Desktop Policy,Default Server Policy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAssignedPoliciesAPIWithDefaultDetails -->
+        <test-method status="PASS" signature="validateGetAssignedPoliciesAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetAssignedPoliciesAPI@41e36e46]" name="validateGetAssignedPoliciesAPIWithValidDetails" duration-ms="140" started-at="2020-03-31T14:28:58 IST" data-provider="data" finished-at="2020-03-31T14:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyTypes=DPMA,MSMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,DPMA,MSMA, expectedStatusCode=200, partnerID=50001749, policyNames=Default Desktop Policy,Default Server Policy,MAC_weekly,MSAPPS Desktop Policy.....Karam,Syeed Desktop Policy TPT,PmScripts Desktop Policy,PmScripts Desktop Policy_Minor,TPM_Test1,GRT Desktop Policy,GRT Server Policy}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAssignedPoliciesAPIWithValidDetails -->
+        <test-method status="PASS" signature="validateGetAssignedPoliciesAPIWithValidDetails(java.util.Hashtable)[pri:0, instance:org.continuum.testcases.ValidateGetAssignedPoliciesAPI@41e36e46]" name="validateGetAssignedPoliciesAPIWithValidDetails" duration-ms="130" started-at="2020-03-31T14:28:58 IST" data-provider="data" finished-at="2020-03-31T14:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{policyTypes=DPMA,MSMA,DPMA,MSMA,MSMA,DPMA, expectedStatusCode=200, partnerID=50016282, policyNames=Default Desktop Policy,Default Server Policy,Copy of Desktop Policy,Copy of Default Server Policy,Copy of Default Server Policyi,Copy of Copy of Desktop Policy ASK}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetAssignedPoliciesAPIWithValidDetails -->
+      </class> <!-- org.continuum.testcases.ValidateGetAssignedPoliciesAPI -->
+    </test> <!-- Bright Gauge API's -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>

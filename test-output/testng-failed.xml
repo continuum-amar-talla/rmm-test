@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [API Automation Suite]">
+  <test thread-count="10" name="Bright Gauge API&#039;s(failed)">
+    <classes>
+      <class name="org.continuum.testcases.ValidateGetPartnerMetaDataAPI">
+        <methods>
+          <include name="validateGetPartnerMetaDataAPIWithInvalidOperation" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="setUpFramework"/>
+          <include name="validateGetPartnerMetaDataAPIWithInvalidPartnerID" invocation-numbers="0"/>
+          <include name="validateGetPartnerMetaDataAPIWithValidDetails" invocation-numbers="0 1 2"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.continuum.testcases.ValidateGetPartnerMetaDataAPI -->
+      <class name="org.continuum.testcases.ValidateGetPolicyDetailsAPI">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUpFramework"/>
+          <include name="validateGetPolicyDetailsAPIWithInvalidDetails" invocation-numbers="0 1"/>
+          <include name="afterSuite"/>
+          <include name="validateGetPolicyDetailsAPIWithValidDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.continuum.testcases.ValidateGetPolicyDetailsAPI -->
+      <class name="org.continuum.testcases.ValidateGetListSiteAPI">
+        <methods>
+          <include name="validateGetListSiteAPIWithValidDetails" invocation-numbers="0 1 2 3 4"/>
+          <include name="beforeClass"/>
+          <include name="validateListSiteAPIWithInvalidOperation" invocation-numbers="0"/>
+          <include name="setUpFramework"/>
+          <include name="validateGetListSiteAPIWithInvalidDetails" invocation-numbers="0 1 2 3"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.continuum.testcases.ValidateGetListSiteAPI -->
+      <class name="org.continuum.testcases.ValidateGetAssignedPoliciesAPI">
+        <methods>
+          <include name="validateGetAssignedPoliciesAPIWithDefaultDetails" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="validateGetAssignedPoliciesAPIWithValidDetails" invocation-numbers="0 1"/>
+          <include name="setUpFramework"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.continuum.testcases.ValidateGetAssignedPoliciesAPI -->
+    </classes>
+  </test> <!-- Bright Gauge API's(failed) -->
+</suite> <!-- Failed suite [API Automation Suite] -->

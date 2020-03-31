@@ -1,0 +1,5 @@
+org\continuum\rough\TestClass.class
+org\continuum\testcases\ValidateGetPolicyDetailsAPI.class
+org\continuum\testcases\ValidateGetListSiteAPI.class
+org\continuum\testcases\ValidateGetAssignedPoliciesAPI.class
+org\continuum\testcases\ValidateGetPartnerMetaDataAPI.class
